@@ -86,7 +86,7 @@
         <div class="col-md-3">
           <div class="card text-center border-danger">
             <div class="card-body">
-              <h3 class="text-primary">Be Better</h3>
+              <h3 class="text-danger">Be Better</h3>
               <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, quibusdam.</p>
             </div>
           </div>
@@ -102,7 +102,7 @@
         <div class="col-md-3">
           <div class="card text-center border-danger">
             <div class="card-body">
-              <h3 class="text-primary">Be Faster</h3>
+              <h3 class="text-danger">Be Faster</h3>
               <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, quibusdam.</p>
             </div>
           </div>
@@ -326,7 +326,7 @@
                 <textarea class="form-control" placeholder="Message" rows="5"></textarea>
               </div>
             </div>
-            <input type="submit" value="Submit" class="btn btn-outline-info btn-block btn-lg">
+            <input type="submit" value="Submit" class="btn btn-outline-info btn-block btn-lg" id="submitForm">
           </form>
         </div>
       </div>
@@ -338,7 +338,7 @@
       <div class="row text-center">
         <div class="col-md-12 m-auto">
           <p class="lead mx-4">Bigga Publishing LLC</p>
-          <p class="lead mx-3">   Copyright &copy; 2018</p>
+          <p class="lead mx-3">Copyright &copy; 2022</p>
         </div>
       </div>
     </div>
@@ -348,5 +348,9 @@
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/navbar-fixed.js"></script>
+
+  <script>$("#submitForm").click(function() {
+    alert("The Form has been Submitted.");
+ });</script>
 </body>
 </html>
