@@ -43,14 +43,7 @@ body {
       color: #fff;
     }
 
-.p4 {
-  background-color: black;
-}
 
-.p1 {
-  background-color: black;
-  color: #fff;
-}
 
 #contact {
   margin: auto;
@@ -61,5 +54,8 @@ body {
 }
 
 a:hover {
-  color: firebrick;
+background-color: saddlebrown;}
+
+.scale {
+  transform: scale(.98) !important;
 }
