@@ -1,61 +1,159 @@
 body {
-  margin-top: 155px; }
+  margin-top: 155px;
+  color: #fff;
+}
 
 .navbar {
   box-shadow: 2px 2px 5px brown;
   opacity: 0.9;
-  background: #fff; }
-  .navbar .nav-item {
-    font-size: 1.3rem;
-    padding-right: 25px; }
+  background: #fff;
+}
+.navbar .nav-item {
+  font-size: 1.3rem;
+  padding-right: 25px;
+}
 
 #showcase {
   position: relative;
   background: url("../img/bosnia_mountains.jpg");
-  min-height: 600px; }
-  #showcase .primary-overlay {
-    background: rgba(207, 98, 98, 0.8);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
+  min-height: 600px;
+}
+
+#showcase .primary-overlay {
+  background: rgba(207, 98, 98, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 .info-header {
   width: 50%;
   margin: auto;
-  border-bottom: 1px #ddd solid; }
+  border-bottom: 1px #ddd solid;
+}
 
 #authors img {
-  margin-top: -50px; }
+  margin-top: -50px;
+}
 
 #authors .fa {
-  font-size: 25px; }
+  font-size: 25px;
+}
 
 #authors .card:hover {
   background: brown;
-  color: #fff; }
-  #authors .card:hover .fa {
-    color: #fff; }
+  color: #fff;
+}
 
-    .card-header {
-      background-color: brown;
-      color: #fff;
-    }
+#authors .card:hover .fa {
+  color: #fff;
+}
 
+.card-header {
+  background-color: brown;
+  color: #fff;
+}
 
+.p4 {
+  background-color: salmon;
+}
+
+.p1 {
+  background-color: black;
+  color: #fff !important;
+}
 
 #contact {
   margin: auto;
 }
 
-.bg {
-  background-color: rgb(224, 98, 98);
+.bg-1 {
+  background-image: linear-gradient(
+    to right bottom,
+    #f1adad,
+    #fb8e8a,
+    #ff6d65,
+    #fd473b,
+    #f60202
+  );
 }
 
-a:hover {
-background-color: saddlebrown;}
+/* .bg-2 {
+  background-image: linear-gradient(
+    to left,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+} */
 
-.scale {
+.bg-2 {
+  background-image: linear-gradient(
+    to left top,
+    #f1adad,
+    #fb8e8a,
+    #ff6d65,
+    #fd473b,
+    #f60202
+  );
+}
+
+/* a:hover {
+  color: salmon;
+} */
+
+.twitter {
+  color: rgb(103, 176, 201);
+}
+
+.fb {
+  color: rgba(29, 60, 234, 0.814);
+}
+
+.insta {
+  color: rgba(221, 101, 101, 0.807);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.fa {
+  color: #fff;
+  cursor: pointer;
+}
+
+.fa:hover {
+  color: #000 !important;
+}
+
+.submit:hover {
+  transform: scale(.98);
+}
+
+button:focus,
+button:active {
+  outline: none !important;
+}
+
+input:focus,
+input:active {
+  outline: none !important;
+}
+
+button:hover,
+a:hover {
   transform: scale(.98) !important;
+}
+
+li a:hover {
+  color: #f60202 !important;
+}
+
+a.no-scale {
+  transform: scale(1) !important;
 }
