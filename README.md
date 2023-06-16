@@ -7,9 +7,9 @@
 [![LinkedIn Follow](https://img.shields.io/badge/-Follow-blue?style=social&logo=linkedin&link=https://www.linkedin.com/in/dzenis-h/)](https://www.linkedin.com/in/dzenis-h/)
 [![GitHub Follow](https://img.shields.io/badge/-Follow-black?style=social&logo=github&link=https://github.com/dzenis-h)](https://github.com/dzenis-h)
 
-# <img src="https://raw.githubusercontent.com/dzenis-h/bigga-publishing/master/img/bigga_logo.png" width="64" height="64" style="padding:5px"> Bigga Publishing 📚
+# <img src="https://raw.githubusercontent.com/dzenis-h/bigga-publishing/master/img/bigga_logo.png" width="64" height="64" style="padding:5px"> Bigga Publishing 
 
-## Overview 🌅
+## Overview 📚
 Bigga Publishing is a prototype site/landing page. Here's a screenshot of the app:
 
 ![Bigga Publishing Screenshot](https://drive.google.com/uc?export=view&id=1xm6XaQnFehIahARdrPeYzwIBZRrrRstD)
